@@ -1,8 +1,5 @@
 from tkinter import *
-import pygame
-pygame.init()
-pygame.mixer.music.load('Audio/music.mp3')
-pygame.mixer.music.play()
+
 janela = Tk()
 janela.title('Quiz Of Tecnology 1.0')
 janela.geometry('1200x630')
@@ -119,8 +116,6 @@ def pergunta0():
     
 
 def pergunta1():
-    pygame.mixer.music.load('Audio/acertou.mp3')
-    pygame.mixer.music.play()
     labelimage4.place(x=5, y=5, relwidth=1.0, relheight=1.0)
     labelimage.place_forget()
     labelimage3.place_forget()
@@ -155,8 +150,6 @@ def pergunta1():
     
 
 def pergunta2():
-    pygame.mixer.music.load('Audio/acertou.mp3')
-    pygame.mixer.music.play()
     labelimage5.place(x=5, y=5, relwidth=1.0, relheight=1.0)
     labelimage.place_forget()
     labelimage3.place_forget()
@@ -191,8 +184,6 @@ def pergunta2():
     
 
 def pergunta3():
-    pygame.mixer.music.load('Audio/acertou.mp3')
-    pygame.mixer.music.play()
     labelimage6.place(x=5, y=5, relwidth=1.0, relheight=1.0)
     labelimage.place_forget()
     labelimage3.place_forget()
@@ -227,8 +218,6 @@ def pergunta3():
     
 
 def pergunta4():
-    pygame.mixer.music.load('Audio/acertou.mp3')
-    pygame.mixer.music.play()
     labelimage7.place(x=5, y=5, relwidth=1.0, relheight=1.0)
     labelimageover.place_forget()
     labelimage3.place_forget()
@@ -263,8 +252,6 @@ def pergunta4():
     
 
 def pergunta5():
-    pygame.mixer.music.load('Audio/acertou.mp3')
-    pygame.mixer.music.play()
     labelimage8.place(x=5, y=5, relwidth=1.0, relheight=1.0)
     labelimage.place_forget()
     labelimage3.place_forget()
@@ -299,8 +286,6 @@ def pergunta5():
     
 
 def pergunta6():
-    pygame.mixer.music.load('Audio/acertou.mp3')
-    pygame.mixer.music.play()
     labelimage9.place(x=5, y=5, relwidth=1.0, relheight=1.0)
     labelimage.place_forget()
     labelimage3.place_forget()
@@ -335,8 +320,6 @@ def pergunta6():
     
 
 def pergunta7():
-    pygame.mixer.music.load('Audio/acertou.mp3')
-    pygame.mixer.music.play()
     labelimage10.place(x=5, y=5, relwidth=1.0, relheight=1.0)
     labelimage.place_forget()
     labelimage3.place_forget()
@@ -371,8 +354,6 @@ def pergunta7():
     
 
 def pergunta8():
-    pygame.mixer.music.load('Audio/acertou.mp3')
-    pygame.mixer.music.play()
     labelimage11.place(x=5, y=5, relwidth=1.0, relheight=1.0)
     labelimage.place_forget()
     labelimage3.place_forget()
@@ -407,8 +388,6 @@ def pergunta8():
     
 
 def pergunta9():
-    pygame.mixer.music.load('Audio/acertou.mp3')
-    pygame.mixer.music.play()
     labelimage12.place(x=5, y=5, relwidth=1.0, relheight=1.0)
     labelimage.place_forget()
     labelimage3.place_forget()
@@ -443,8 +422,6 @@ def pergunta9():
     
 
 def pergunta10():
-    pygame.mixer.music.load('Audio/acertou.mp3')
-    pygame.mixer.music.play()
     labelimage13.place(x=5, y=5, relwidth=1.0, relheight=1.0)
     labelimage.place_forget()
     labelimage3.place_forget()
@@ -478,8 +455,6 @@ def pergunta10():
 
 
 def gameover():
-    pygame.mixer.music.load('Audio/errou.mp3')
-    pygame.mixer.music.play()
     labelimageover.place(x=5, y=5, relwidth=1.0, relheight=1.0)
     reiniciar.pack()
     framer.pack(side=BOTTOM, pady='250', padx='1')
@@ -557,8 +532,6 @@ def gameover():
     
 
 def certo():
-    pygame.mixer.music.load('Audio/aplausos.mp3')
-    pygame.mixer.music.play()
     labelimageganhou.place(x=5, y=5, relwidth=1.0, relheight=1.0)
     reiniciar2.pack()
     framer.pack(side=BOTTOM, pady='250', padx='1')
@@ -594,9 +567,6 @@ def comojogar0():
     music()
 
 
-def music():
-    pygame.mixer.music.load('Audio/music.mp3')
-    pygame.mixer.music.play()
 
 
 #   WIDJETS:
@@ -608,7 +578,7 @@ comojogar.pack(side=RIGHT)
 reiniciar = Button(framer, text='Tentar Novamente', font='80', width='0', bg='green', fg='white', command=pergunta0)
 reiniciar2 = Button(framer, text='Jogar novamente', font='80', width='0', bg='green', fg='white', command=pergunta0)
 
-pergunta00 = Label(framep, text='Responda: ?', font=font, bg='white', fg='black')
+pergunta00 = Label(framep, text='Responda: Qual foi o primeiro computador do mundo?', font=font, bg='white', fg='black')
 A = Button(frameb, text='PDP-1', font='80', width='35', bg='black', fg='white', command=gameover)
 B = Button(frameb, text='EDVAC', font='80', width='35', bg='black', fg='white', command=gameover)
 C = Button(frameb, text='COLOSSUS', font='80', width='35', bg='black', fg='white', command=gameover)
