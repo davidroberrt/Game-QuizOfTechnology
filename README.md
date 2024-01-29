@@ -1,4 +1,4 @@
-# Primeiro Jogo em Python
+# Primeiro Jogo em Python | Quiz of Technology 1.0
 
 Este é o meu primeiro projeto de jogo em Python, criado em 2019 durante meu primeiro período na faculdade de Sistemas de Informação no IESP (agora UNIESP), João Pessoa. O jogo foi desenvolvido como trabalho de conclusão de uma disciplina de Introdução à Programação.
 
