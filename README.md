@@ -14,6 +14,10 @@ O jogo consiste em um desafio de perguntas e respostas. O diferencial reside em 
 - **Interface Gráfica com Tkinter:** Utilizei o Tkinter para criar uma experiência interativa e visualmente atraente.
   
 - **Efeitos Sonoros com Pygame:** Implementei efeitos sonoros utilizando o Pygame para adicionar uma dimensão auditiva à experiência do jogo.
+  
+## Demonstração do Jogo
+
+![Clique aqui para ver a demonstração do jogo](demo.gif)
 
 ## Contribuições:
 - ** Contribuições são bem-vindas! Se você encontrar maneiras de melhorar o jogo ou sugerir novos recursos, sinta-se à vontade para criar um fork deste repositório e propor suas alterações.
