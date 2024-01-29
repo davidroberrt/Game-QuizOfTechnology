@@ -14,7 +14,7 @@ O jogo consiste em um desafio de perguntas e respostas. O diferencial reside em 
 - **Interface Gráfica com Tkinter:** Utilizei o Tkinter para criar uma experiência interativa e visualmente atraente.
   
 ## Requisitos
-1 - **Certifique-se de ter o Python instalado em sua máquina. Além disso, instale as seguintes bibliotecas usando o pip:**
+1 - **Certifique-se de ter o Python instalado em sua máquina. Além disso, instale a seguinte biblioteca usando o pip:**
    ```bash
    pip install tk
    ```
