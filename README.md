@@ -20,7 +20,7 @@ O jogo consiste em um desafio de perguntas e respostas. O diferencial reside em 
    ```
 ## Demonstração do Jogo
 
-![Clique aqui para ver a demonstração do jogo](dem.gif)
+![Clique aqui para ver a demonstração do jogo](demo.gif)
 
 ## Contribuições:
   Contribuições são bem-vindas! Se você encontrar maneiras de melhorar o jogo ou sugerir novos recursos, sinta-se à vontade para criar um fork deste repositório e propor suas alterações.
