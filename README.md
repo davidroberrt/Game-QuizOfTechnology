@@ -13,19 +13,17 @@ O jogo consiste em um desafio de perguntas e respostas. O diferencial reside em 
 ## Funcionalidades
 - **Interface Gráfica com Tkinter:** Utilizei o Tkinter para criar uma experiência interativa e visualmente atraente.
   
-- **Efeitos Sonoros com Pygame:** Implementei efeitos sonoros utilizando o Pygame para adicionar uma dimensão auditiva à experiência do jogo.
-- 
 ## Requisitos
 1 - **Certifique-se de ter o Python instalado em sua máquina. Além disso, instale as seguintes bibliotecas usando o pip:**
    ```bash
-   pip install -r requirements.txt
+   pip install tk
    ```
 ## Demonstração do Jogo
 
 ![Clique aqui para ver a demonstração do jogo](demo.gif)
 
 ## Contribuições:
-- ** Contribuições são bem-vindas! Se você encontrar maneiras de melhorar o jogo ou sugerir novos recursos, sinta-se à vontade para criar um fork deste repositório e propor suas alterações.
+  Contribuições são bem-vindas! Se você encontrar maneiras de melhorar o jogo ou sugerir novos recursos, sinta-se à vontade para criar um fork deste repositório e propor suas alterações.
   
 
 
