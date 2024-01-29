@@ -16,9 +16,9 @@ O jogo consiste em um desafio de perguntas e respostas. O diferencial reside em 
 - **Efeitos Sonoros com Pygame:** Implementei efeitos sonoros utilizando o Pygame para adicionar uma dimensão auditiva à experiência do jogo.
 
 ## Requisitos
-**Certifique-se de ter o Python instalado em sua máquina. Além disso, instale as seguintes bibliotecas usando o pip:**
+1 - **Certifique-se de ter o Python instalado em sua máquina. Além disso, instale as seguintes bibliotecas usando o pip:**
    ```bash
-    pip install -r requirements.txt
+   pip install -r requirements.txt
 
 ## Como Executar o Jogo
 
