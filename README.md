@@ -16,26 +16,22 @@ O jogo consiste em um desafio de perguntas e respostas. O diferencial reside em 
 - **Efeitos Sonoros com Pygame:** Implementei efeitos sonoros utilizando o Pygame para adicionar uma dimensão auditiva à experiência do jogo.
 
 ## Requisitos
-Certifique-se de ter o Python instalado em sua máquina. Além disso, instale as seguintes bibliotecas usando o pip:
-```bash
-  pip install -r requirements.txt
+**Certifique-se de ter o Python instalado em sua máquina. Além disso, instale as seguintes bibliotecas usando o pip:**
+   ```bash
+    pip install -r requirements.txt
 
 ## Como Executar o Jogo
 
-- ** 1 - Clone este repositório:
-```bash
-  git clone https://github.com/seu-usuario/PrimeiroJogoEmPython.git
+1 - **Clone este repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/PrimeiroJogoEmPython.git
 
-- ** 2 - Navegue até o diretório do projeto:
-```bash
-cd PrimeiroJogoEmPython
-
-- ** 2 - Navegue até o diretório do projeto:
-```bash
-cd PrimeiroJogoEmPython
-
-Execute o jogo:
-python main.py
+2 - **Navegue até o diretório do projeto:**
+   ```bash
+   cd PrimeiroJogoEmPython
+3 - **Execute o jogo:**
+   ```bash
+   python main.py
 
 ## Contribuições:
 - ** Contribuições são bem-vindas! Se você encontrar maneiras de melhorar o jogo ou sugerir novos recursos, sinta-se à vontade para criar um fork deste repositório e propor suas alterações.
