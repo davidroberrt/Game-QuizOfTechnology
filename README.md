@@ -17,8 +17,8 @@ O jogo consiste em um desafio de perguntas e respostas. O diferencial reside em 
 
 ## Requisitos
 Certifique-se de ter o Python instalado em sua máquina. Além disso, instale as seguintes bibliotecas usando o pip:
-```bash
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
 
 ## Como Executar o Jogo
 
